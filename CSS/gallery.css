@@ -1,0 +1,81 @@
+body{
+    background-color:#fff;
+}
+
+ul  {
+   list-style-type: none;
+   margin:  0;
+   padding: 0px;
+   display: inline;
+   /* float: left; */
+
+}
+li{
+   float: right;
+   padding: 10px;
+}
+li a {
+ display: block;
+ font-size: 20px;
+ color: #A01A2B;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ height: 24px;
+
+}
+li a:hover {
+  background-color:#F79324;
+  color: #fff;
+  border-radius: 20%;
+ }
+ @import url("https://fonts.googleapis.com/css?family=Inter:400,500|Barlow:400,700,500|Lobster:400|Playfair+Display:400");
+
+.row-1{
+    display: flex;
+}
+.row-2{
+    display: flex;
+    margin-top: 6%;
+}
+.directors{
+    margin-left: 4.2%;
+}
+.change{
+    text-align: center;
+    padding: 10px;
+    color: #A01A2B;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: #F79324;
+}
+h3{
+    text-align: center;
+    color: #A01A2B;
+}
+
+.directors-1{
+  width: 350px;
+  border-radius: 10px;
+  border:solid #F79324;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
