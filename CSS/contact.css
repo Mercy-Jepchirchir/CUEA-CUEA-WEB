@@ -57,13 +57,13 @@ img {
 }
 .right-column {
    width:40%;
-   
-   
+     
 }
 h2 {
    color: whitesmoke;
    font-size:20px;
    text-align: center;
+   /* heading */
 }
 textarea #messo {
    margin-left:-5%; ;
