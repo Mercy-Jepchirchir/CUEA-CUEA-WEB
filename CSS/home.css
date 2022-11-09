@@ -3,7 +3,17 @@ body{
     background-position: 100%;
     background-size:cover;
     position:static;
+    overflow-y: hidden;
  }
+ /* @keyframes container{
+     from{
+        transform: translateY(0);
+     }
+     to{
+        transform: translateY(-3);  
+     }
+ } */
+
  ul li{
     /* color: blue; */
     list-style: none;
@@ -22,6 +32,7 @@ body{
     background-color:#681D22;
     margin: -7.8px;
  }
+
  .unity{
     float: left;
     margin-left: 17%;
@@ -115,16 +126,17 @@ body{
      font-weight: bold;
      padding-bottom:50%;
  }
- .move{
-      padding-top: 40%;
- }
- .pic {
-     margin-left:45%;
-     margin-top: -24%;
- }
+marquee .pic {
+    animation:marquee 3s linear infinite;
+}
+@keyframes marquee {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}
+
  .container-1 h3{
     margin-left: 180px;
-    margin-top: 10%;
+    margin-top: -22%;
     font-size:40px;
     color: #A01A2B;
 
@@ -136,6 +148,10 @@ body{
     font-size:23px;
  }
 
+ .container-1 .pic{
+    margin-left: 130px;
+   
+ }
  .menu{
     padding-top: 10px;
 
